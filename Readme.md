@@ -1,5 +1,5 @@
 # TestG
-TestG - a simple iOS application. (Xcode Version 11.2.1)
+TestG - a simple iOS application. (Xcode Version 13.4.1)
 
 ## External libs
 - Alamofire (network layer)
