@@ -8,7 +8,7 @@
 import UIKit
 
 // sourcery: AutoMockable, scene="BeerList"
-protocol BeerListDisplayLogic: class {
+protocol BeerListDisplayLogic: AnyObject {
     func displayLoadBeers(_ viewModel: BeerList.LoadBeers.ViewModel)
     func displayLoadMoreBeers(_ viewModel: BeerList.LoadMoreBeers.ViewModel)
 }

@@ -6,6 +6,6 @@
 //  Copyright © 2020 Test. All rights reserved.
 //
 
-protocol Coordinator: class {
+protocol Coordinator: AnyObject {
     func start()
 }

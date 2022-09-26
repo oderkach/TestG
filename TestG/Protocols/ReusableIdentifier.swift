@@ -6,7 +6,7 @@
 //  Copyright © 2020 Test. All rights reserved.
 //
 
-public protocol ReusableIdentifier: class {
+public protocol ReusableIdentifier: AnyObject {
     static var reuseIdentifier: String { get }
 }
 
